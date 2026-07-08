@@ -29,7 +29,7 @@ Scripts for backing up home directory in Ubuntu Linux 26.04 LTS.
 
 - Initial backup:
 
-        borg create -v --stats -C lz4 /home/user/shares/backup/borg_repo::backup_$(date +%Y%m%d) /home/user
+        borg create -C lz4 /home/user/shares/backup/borg_repo::backup_20200101 /home/user
 
 - Delete backup:
 
