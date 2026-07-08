@@ -3,7 +3,7 @@ Scripts for backing up Ubuntu Linux 26.04 LTS.
 
 - Mount SMB-Share on boot:
 
-    nano /home/user/.smbcredentials
+        nano /home/user/.smbcredentials
     `chmod 600 /home/user/.smbcredentials`
     `sudo nano /etc/fstab`
     `mkdir /home/user/shares`
