@@ -1,0 +1,1 @@
+//192.168.1.10/backup /home/user/shares/backup cifs credentials=/home/user/.smbcredentials,uid=1000,gid=1000,rw,user 0 0
