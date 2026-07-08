@@ -3,7 +3,7 @@ Scripts for backing up home folder in Ubuntu Linux 26.04 LTS.
 
 - Installation:
 
-        apt install borgbackup
+        sudo apt install borgbackup
 
 - Mount SMB-Share on boot:
 
