@@ -2,11 +2,11 @@
 
 Scripts for backing up home directory in Ubuntu Linux 26.04 LTS.
 
-# install
+# Install
 
         sudo apt install borgbackup
 
-# config
+# Configuration
 
 - Mount SMB-Share on boot:
 
@@ -37,7 +37,7 @@ Scripts for backing up home directory in Ubuntu Linux 26.04 LTS.
 
         borg delete /home/user/shares/backup/borg_repo backup_20200101
 
-# links
+# Links
 
 - https://www.borgbackup.org/
 - https://borgbackup.readthedocs.io/
