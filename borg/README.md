@@ -12,6 +12,8 @@ Scripts for backing up home directory in Ubuntu Linux 26.04 LTS.
         sudo nano /etc/fstab
         mkdir /home/user/shares
         mkdir /home/user/shares/backup/borg_repo
+        chmod 700 /home/user/shares
+        chmod 700 /home/user/shares/backup
         reboot
         
 - Create repository and export key:
