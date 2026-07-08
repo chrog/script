@@ -18,4 +18,13 @@ Scripts for backing up Ubuntu Linux 26.04 LTS.
 Create Repository:
 
 `borg init -e repokey /home/user/shares/backup/borg_repo`
+
 `borg key export /home/user/shares/backup/borg_repo`
+
+List Backups:
+
+`borg list /home/user/shares/backup/borg_repo`
+
+Delete Backup:
+
+`borg delete /home/user/shares/backup/borg_repo backup_20200101`
