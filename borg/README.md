@@ -39,5 +39,5 @@ Scripts for backing up home directory in Ubuntu Linux 26.04 LTS.
 
 # Links
 
-- https://www.borgbackup.org/
-- https://borgbackup.readthedocs.io/
+- https://www.borgbackup.org
+- https://borgbackup.readthedocs.io
