@@ -8,6 +8,7 @@ Scripts for backing up home directory in Ubuntu Linux 26.04 LTS.
 
 - Mount SMB-Share on boot:
 
+        id # check uid/guid
         nano /home/user/.smbcredentials # Create credentials
         chmod 600 /home/user/.smbcredentials
         sudo nano /etc/fstab
