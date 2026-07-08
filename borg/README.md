@@ -1,5 +1,9 @@
 # borg
-Scripts for backing up Ubuntu Linux 26.04 LTS.
+Scripts for backing up home folder in Ubuntu Linux 26.04 LTS.
+
+- Installation:
+
+        apt install borgbackup
 
 - Mount SMB-Share on boot:
 
