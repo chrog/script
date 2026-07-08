@@ -1,5 +1,5 @@
 # borg
-Scripts for backing up home folder in Ubuntu Linux 26.04 LTS.
+Scripts for backing up home directory in Ubuntu Linux 26.04 LTS.
 
 - Installation:
 
