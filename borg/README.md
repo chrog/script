@@ -2,7 +2,7 @@
 
 Scripts for backing up home directory in Ubuntu Linux 26.04 LTS.
 
-# Install
+# Installation
 
         sudo apt install borgbackup
 
