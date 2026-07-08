@@ -1,4 +1,5 @@
 # borg
+
 Scripts for backing up home directory in Ubuntu Linux 26.04 LTS.
 
 - Installation:
@@ -32,3 +33,7 @@ Scripts for backing up home directory in Ubuntu Linux 26.04 LTS.
 - Delete backup:
 
         borg delete /home/user/shares/backup/borg_repo backup_20200101
+
+Links:
+
+https://borgbackup.readthedocs.io/
