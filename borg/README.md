@@ -10,19 +10,19 @@ Scripts for backing up Ubuntu Linux 26.04 LTS.
         mkdir /home/user/shares/backup/borg_repo
         reboot
         
-- Create Repository:
+- Create repository and export key:
 
         borg init -e repokey /home/user/shares/backup/borg_repo
         borg key export /home/user/shares/backup/borg_repo
 
-- List Backups:
+- List backups:
 
         borg list /home/user/shares/backup/borg_repo
 
-- Initial Backup:
+- Initial backup:
 
         borg create -v --stats -C lz4 /home/user/shares/backup/borg_repo::backup_$(date +%Y%m%d) /home/user
 
-- Delete Backup:
+- Delete backup:
 
         borg delete /home/user/shares/backup/borg_repo backup_20200101
