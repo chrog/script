@@ -17,12 +17,12 @@ Scripts for backing up Ubuntu Linux 26.04 LTS.
 
 List Backups:
 
-`borg list /home/user/shares/backup/borg_repo`
+        borg list /home/user/shares/backup/borg_repo
 
 Initial Backup:
 
-`borg create -v --stats -C lz4 /home/user/shares/backup/borg_repo::backup_$(date +%Y%m%d) /home/user`
+        borg create -v --stats -C lz4 /home/user/shares/backup/borg_repo::backup_$(date +%Y%m%d) /home/user
 
 Delete Backup:
 
-`borg delete /home/user/shares/backup/borg_repo backup_20200101`
+        borg delete /home/user/shares/backup/borg_repo backup_20200101
