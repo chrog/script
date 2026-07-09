@@ -37,6 +37,10 @@ Backup scripts for the home directory on Ubuntu Linux 26.04 LTS.
 
         borg delete /home/user/shares/backup/borg_repo backup_20200101
 
+- Change passphrase
+
+        borg key change-passphrase /home/user/shares/backup/borg_repo
+
 # Links
 
 - https://www.borgbackup.org
