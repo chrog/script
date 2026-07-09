@@ -16,7 +16,6 @@ Backup scripts for the home directory on Ubuntu Linux 26.04 LTS.
 
         mkdir /home/user/shares
         mkdir /home/user/shares/backup/borg_repo
-
         chmod 700 /home/user/shares
         chmod 700 /home/user/shares/backup
         sudo nano /etc/fstab
