@@ -13,11 +13,14 @@ Backup scripts for the home directory on Ubuntu Linux 26.04 LTS.
         id # check uid/guid
         nano /home/user/.smbcredentials # Create credentials
         chmod 600 /home/user/.smbcredentials
-        sudo nano /etc/fstab
+
         mkdir /home/user/shares
         mkdir /home/user/shares/backup/borg_repo
+
         chmod 700 /home/user/shares
         chmod 700 /home/user/shares/backup
+        sudo nano /etc/fstab
+  
         reboot
         
 - Create repository and export key:
